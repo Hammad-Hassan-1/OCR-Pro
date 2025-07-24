@@ -78,7 +78,8 @@ def strip_html(text):
 # -------------------------------------------------
 # 5️⃣  Streamlit UI
 # -------------------------------------------------
-st.set_page_config(page_title="PDF OCR with EasyOCR", layout="centered")
+st.set_page_config(page_title="OCR-ZERO", layout="centered")
+st.markdown("# 🎯 OCR-Zero")
 st.title("📄 PDF OCR (EasyOCR – No Tesseract Binary)")
 st.write("Upload a PDF and extract **all** readable text.")
 
